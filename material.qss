@@ -1,0 +1,87 @@
+
+QWidget {
+    background-color: %%background%%;
+    color: %%text_primary%%;
+    font-family: "Roboto", "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+
+.pages-buttons, .style-button {
+    background-color: %%surface%%;
+    color: %%text_primary%%;
+    font-size: 20px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    padding: 6px 12px;
+}
+
+.panel {
+    background-color: %%hover%%;
+    /* color: %%text_primary%%;
+    font-size: 20px; */
+    border: none;
+    border-radius: 0px;
+    padding: 6px 12px;
+}
+
+QPushButton{
+    background-color: %%button_primary%%;
+    color: %%text_primary%%;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.connected-label {
+    color: %%text_passive%%;
+}
+
+/* #stackedWidget QPushButton {
+    background-color: %%widget_background%%;
+    color: %%text_primary%%;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+} */
+
+QPushButton:hover {
+    background-color: %%hover%%;
+}
+
+QPushButton:pressed {
+    background-color: %%pressed%%;
+}
+
+QPushButton:checked {
+    background-color: %%hover%%;
+}
+
+.style-button:checked {
+    background-color: %%surface%%;
+}
+
+#stackedWidget > QWidget {
+    background-color: %%surface%%;
+    /* border: 0px solid %%border%%; */
+    border: none;
+    border-radius: 0px;
+}
+
+QToolTip {
+    background-color: %%surface%%;
+    color: %%text_primary%%;
+    border: 1px solid %%border%%;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+QLabel {
+    background-color: transparent;
+    color: %%text_primary%%;
+}

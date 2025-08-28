@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="dark">
+    <file>icons/conn_white.png</file>
+    <file>icons/darklight_white.png</file>
+    <file>icons/logs_white.png</file>
+    <file>icons/plot_white.png</file>
+    <file>icons/settings_white.png</file>
+    <file>icons/tags_white.png</file>
+  </qresource>
+  <qresource prefix="light">
+    <file>icons/conn_black.png</file>
+    <file>icons/darklight_black.png</file>
+    <file>icons/logs_black.png</file>
+    <file>icons/plot_black.png</file>
+    <file>icons/settings_black.png</file>
+    <file>icons/tags_black.png</file>
+  </qresource>
+</RCC>
